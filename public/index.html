@@ -1,0 +1,455 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-[#C0C0F0] scroll-smooth">
+    <div
+        class="h-screen relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('/assets/Vector%2010.svg')] dark:before:bg-[url('/assets/Vector%2010.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+        <div class="h-full">
+            <!-- ========== HEADER ========== -->
+            <header class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full">
+                <nav
+                    class="relative w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 md:px-12 md:py-6 lg:px-24 lg:py-8  -mt-20">
+                    <div class="flex justify-between items-center gap-x-1">
+                        <a class="flex-none font-semibold text-black focus:outline-none focus:opacity-80 dark:text-white"
+                            href="#" aria-label="Brand">
+                            <svg class="py-2 w-44" width="726" height="250" viewBox="0 0 726 370" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M286 248V248C305.864 264.985 335.136 264.985 355 248V248" stroke="white"
+                                    stroke-width="26" stroke-linecap="round" class="svg-elem-1"></path>
+                                <ellipse cx="415.5" cy="143.5" rx="20.5" ry="19.5" fill="white" class="svg-elem-2">
+                                </ellipse>
+                                <ellipse cx="273.5" cy="143.5" rx="20.5" ry="19.5" fill="white" class="svg-elem-3">
+                                </ellipse>
+                                <path d="M669 209.23V123.23" stroke="white" stroke-width="26" stroke-linecap="round"
+                                    class="svg-elem-4"></path>
+                                <path
+                                    d="M485.222 209.526C485.222 209.526 480.222 169.026 485.222 150.025C491.5 122.893 530.5 107.894 550.222 147.024M616.722 209.526C617.501 204.617 622.5 172.73 616.722 150.025C611.5 122.893 567.5 107.894 550.222 147.024M550.222 209.526C550.222 209.526 557.5 166.23 550.222 147.024"
+                                    stroke="white" stroke-width="26" stroke-linecap="round" class="svg-elem-5"></path>
+                                <path
+                                    d="M296 167.731C296 193.964 274.734 215.23 248.5 215.23C222.266 215.23 201 193.964 201 167.731C201 141.497 222.266 120.23 248.5 120.23C274.734 120.23 296 141.497 296 167.731Z"
+                                    stroke="white" stroke-width="26" stroke-linecap="round" class="svg-elem-6"></path>
+                                <path
+                                    d="M437 167.731C437 193.964 415.734 215.23 389.5 215.23C363.266 215.23 342 193.964 342 167.731C342 141.497 363.266 120.23 389.5 120.23C415.734 120.23 437 141.497 437 167.731Z"
+                                    stroke="white" stroke-width="26" stroke-linecap="round" class="svg-elem-7"></path>
+                                <path
+                                    d="M147 67C147 67 149.42 54.3091 164.143 40.933C178.865 27.557 195 29.0497 195 29.0497"
+                                    stroke="white" stroke-width="26" stroke-linecap="round" class="svg-elem-8"></path>
+                                <path
+                                    d="M57 167.731C109.283 167.731 136.451 123.002 141.959 112.818C142.377 112.044 143.506 112.129 143.766 112.97C148.193 127.282 154.145 168.821 158 212M158 212C161.257 248.487 163.887 279 153.5 307.231C144.401 331.961 123.479 346.785 102.5 338.731C48.5 318 110.5 219 158 212Z"
+                                    stroke="white" stroke-width="26" stroke-linecap="round" class="svg-elem-9"></path>
+                            </svg>
+                        </a>
+
+                        <!-- Collapse Button -->
+                        <button type="button"
+                            class="hs-collapse-toggle md:hidden relative size-9 flex justify-center items-center font-medium text-[12px] rounded-lg border border-gray-200 text-gray-800  focus:outline-none disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-white "
+                            id="hs-header-base-collapse" aria-expanded="false" aria-controls="hs-header-base"
+                            aria-label="Toggle navigation" data-hs-collapse="#hs-header-base">
+                            <svg class="hs-collapse-open:hidden size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" x2="21" y1="6" y2="6" />
+                                <line x1="3" x2="21" y1="12" y2="12" />
+                                <line x1="3" x2="21" y1="18" y2="18" />
+                            </svg>
+                            <svg class="hs-collapse-open:block shrink-0 hidden size-4"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M18 6 6 18" />
+                                <path d="m6 6 12 12" />
+                            </svg>
+                            <span class="sr-only">Toggle navigation</span>
+                        </button>
+                        <!-- End Collapse Button -->
+                    </div>
+
+                    <!-- Collapse -->
+                    <div id="hs-header-base"
+                        class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block "
+                        aria-labelledby="hs-header-base-collapse">
+                        <div
+                            class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+                            <div class="py-2 md:py-0  flex flex-col md:flex-row md:items-center gap-0.5 md:gap-1">
+                                <div class="grow">
+                                    <div
+                                        class="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-1 lg:gap-x-12 md:gap-x-8">
+                                        <a class="p-2 flex items-center text-xl text-white font-bold " href="#project">
+                                            <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                                                <circle cx="12" cy="7" r="4" />
+                                            </svg>
+                                            Le projet
+                                        </a>
+
+
+
+
+                                        <a class="lg:hidden block p-2 flex items-center text-xl text-white font-bold "
+                                            href="#about">
+                                            <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                                                <circle cx="12" cy="7" r="4" />
+                                            </svg>
+                                            Qui sommes-nous ?
+                                        </a>
+
+                                        <a class="lg:block hidden  p-2 flex items-center text-xl text-white font-bold "
+                                            href="#about">
+                                            <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                                                <circle cx="12" cy="7" r="4" />
+                                            </svg>
+                                            Qui sommes-nous et pourquoi ?
+                                        </a>
+
+                                        <a class="p-2 flex items-center text-xl text-white font-bold " href="#contact">
+                                            <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 12h.01" />
+                                                <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                                                <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+                                                <rect width="20" height="14" x="2" y="6" rx="2" />
+                                            </svg>
+                                            Contact
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Collapse -->
+                </nav>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center p-8 md:p-24 lg:gap-y-0 gap-y-20">
+
+                <!-- Texte -->
+                <div class="col-span-2 md:col-span-1 lg:order-1 order-2 justify-center items-center flex-col flex">
+                    <div class="lg:text-start text-center">
+                        <h2 class="text-6xl lg:text-9xl font-bold text-white mb-4">JOOMI</h2>
+                        <p class="text-white lg:text-6xl text-4xl">JUST MAKE IT</p>
+                    </div>
+                </div>
+
+
+
+                <!-- Image -->
+                <div class="col-span-2 md:col-span-1 flex justify-center lg:order-2 order-1 items-center">
+                    <img src="./assets/GILOBABY-Interactive-Smart-Robot-Toy-for-Kids-Voice-Controlled-Green_8c72de69-7379-4d7f-8938-e7d185490b1c.936839a7f6014b040fed81539bc1fb44-removebg-preview 1.png"
+                        alt="Image exemple" class="rounded-lg w-[30rem] lg:max-w-full">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ========== END HEADER ========== -->
+    <div id="project"
+        class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-white dark:before:bg-white before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2 h-full">
+        <section
+            class="md:px-16 md:py-16 px-8 py-8 space-y-10 h-full relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('/assets/01.svg')] dark:before:bg-[url('/assets/01.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+
+            <h1 class="text-2xl md:text-4xl font-bold md:text-start text-center">
+                01 - Le projet
+            </h1>
+
+            <div class="grid lg:grid-cols-2 grid-cols-1 py-2 lg:py-36 z-50 lg:gap-0 gap-8">
+                <!-- Texte à gauche -->
+                <div class="justify-center flex items-center md:order-1 order-2">
+                    <div class="md:text-xl md:px-12">
+                        <h2 class=" md:text-3xl md:mb-3">Le projet JOOMI !</h2>
+                        <div class="space-y-3">
+                            <p>
+                                Réinventons l’informatique et la robotique pour tous, quel que soit le niveau.
+                                Avec Joomi, la technologie devient inclusive, amusante et accessible à tous.
+                            </p>
+                            <p>
+                                JOOMI, c’est plus qu’un outil : une invitation à explorer et à apprendre. Notre mission
+                                est de rendre la programmation et la robotique simples et ludiques.
+                            </p>
+                            <p>
+                                JOOMI est un starter kit pour tous les niveaux, des bases aux applications avancées.
+                                Tutoriels, défis et outils innovants vous aident à libérer votre créativité.
+                            </p>
+                            <p>
+                                Que vous soyez adolescent, parent ou passionné de robotique, JOOMI est pour vous. Il n’y
+                                a pas d’âge pour apprendre et créer.
+                            </p>
+                            <p>
+                                Avec notre slogan "JUST MAKE IT", rejoignez JOOMI et façonnez le futur, un projet à la
+                                fois.
+                            </p>
+                            <p>
+                                Ensemble, révolutionnons l’apprentissage de la programmation !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image à droite -->
+                <div class="justify-center flex items-center order-1 md:order-2 ">
+                    <img src="./assets/GILOBABY-Interactive-Smart-Robot-Toy-for-Kids-Voice-Controlled-Green_8c72de69-7379-4d7f-8938-e7d185490b1c.936839a7f6014b040fed81539bc1fb44-removebg-preview 1.png"
+                        alt="Robot interactif JOOMI" class="w-64 md:w-96">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="h-full" id="about">
+        <section
+            class="md:px-16 md:py-16 py-8 px-8 space-y-10 h-full relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('/assets/02.svg')] dark:before:bg-[url('/assets/02.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+
+            <h1 class="text-2xl md:text-4xl font-bold md:text-start text-center">
+                02 - Qui sommes-nous ? Pourquoi ?
+            </h1>
+
+            <div class="grid lg:grid-cols-2 grid-cols-1 md:py-24 md:gap-0 gap-8">
+                <!-- Image à gauche -->
+                <div class="lg:px-12 mx-auto lg:mx-0 mb-12 lg:mb-0">
+                    <img src="./assets/WhatsApp Image 2025-01-23 à 22.53.57_83e0a31b 1.png" alt="Photo de l'équipe"
+                        class="rounded-2xl md:rounded-4xl">
+                </div>
+
+                <!-- Texte à droite -->
+                <div class="justify-center flex items-center ">
+                    <div class="space-y-3 md:text-xl ">
+                        <h2 class="text-3xl">Qui ?</h2>
+                        <p>
+                            Clara, Nolann, Calista, Hugo, Léo et Stéphane (le coach ultime) viennent d’horizons
+                            scolaires et professionnels différents. Clara est en BTS de Commerce, Nolann poursuit une
+                            licence d’histoire, Calista se plonge dans les sciences de la vie et de la terre, tandis
+                            qu'Hugo suit un Master dans les systèmes embarqués. Malgré leurs parcours distincts, ils
+                            forment une équipe soudée, prête à relever tous les défis. Leur objectif est clair :
+                            remporter le concours Fabrik ta pépite. Un seul mot d’ordre : <strong>Just Make
+                                It</strong>... Et gagner !
+                        </p>
+
+                        <h2 class="text-3xl">Pourquoi Joomi ?</h2>
+                        <p>
+                            Joomi est un projet créé pour le concours Fabrik Ta Pépite en Bretagne. Ce concours regroupe
+                            les étudiants des 7 technopoles de Bretagne pour mettre en valeur l'entrepreneuriat. Joomi
+                            est un projet porté par Hugo lors d’un stage qu’il souhaite pousser plus loin (anciennement
+                            nommé : Educator).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="bg-white" id="contact">
+        <section
+            class="md:px-16 md:py-16 py-8 space-y-10 h-full relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('/assets/02.svg')] dark:before:bg-[url('/assets/02.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+            <h1 class="text-2xl md:text-4xl font-bold md:text-start text-center">
+                03 - Contact
+            </h1>
+
+            <!-- Contact Grid -->
+            <div class="grid sm:grid-cols-1 lg:grid-cols-3 gap-6 py-14 px-12">
+                <!-- Contact Card 1 -->
+                <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
+                    href="https://www.instagram.com/joomi_com/" target="_blank">
+                    <div class="p-4 md:p-5">
+                        <div class="flex gap-x-5">
+                            <svg class="mt-1 shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            </svg>
+                            <div class="grow">
+                                <h3 class="group-hover:text-blue-600 font-semibold text-gray-800">Rejoint la communauté
+                                </h3>
+                                <p class="text-sm text-neutral-700">Toi aussi vie l'aventure de Joomi !</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- End Contact Card 1 -->
+
+                <!-- Contact Card 2 -->
+                <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
+                    href="#">
+                    <div class="p-4 md:p-5">
+                        <div class="flex gap-x-5">
+                            <svg class="mt-1 shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                                <path d="M12 17h.01" />
+                            </svg>
+                            <div class="grow">
+                                <h3 class="group-hover:text-blue-600 font-semibold text-gray-800">Get help in the app
+                                </h3>
+                                <p class="text-sm text-neutral-700">Just head to «Help» in the app</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- End Contact Card 2 -->
+
+                <!-- Contact Card 3 -->
+                <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition"
+                    href="#">
+                    <div class="p-4 md:p-5">
+                        <div class="flex gap-x-5">
+                            <svg class="mt-1 shrink-0 size-5 text-gray-800" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z" />
+                                <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
+                            </svg>
+                            <div class="grow">
+                                <h3 class="group-hover:text-blue-600 font-semibold text-gray-800">Email us</h3>
+                                <p class="text-sm text-neutral-700">Reach us at <span
+                                        class="text-blue-600 decoration-2 group-hover:underline font-medium">info@site.com</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- End Contact Card 3 -->
+            </div>
+            <!-- End Contact Grid -->
+
+            <!-- Special Thanks Section -->
+            <h1 class="text-2xl md:text-4xl font-bold md:text-start text-center">
+                04 - Special Thanks
+            </h1>
+            <div class="flex justify-center items-center text-center">
+                <div class="grid  lg:grid-cols-5 grid-cols-2 gap-6 px-12">
+                    <div class="flex justify-center items-center">
+                        <img class="h-12 md:h-28" src="./assets/pepite.png" alt="Pepite Logo">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="h-12 md:h-28" src="./assets/ubs.png" alt="UBS Logo">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="h-12 md:h-28" src="./assets/7.png" alt="Logo 7">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="h-12 md:h-28" src="./assets/rb.png" alt="RB Logo">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="h-12 md:h-28" src="./assets/lorient.png" alt="Lorient Logo">
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="text-xl md:text-2xl font-bold md:text-start text-center">Merci à : - Solen LE CALVÉ - Marie
+                TAMISIER - Stéphane TAUPIN</h2>
+        </section>
+    </div>
+
+    <div class="bg-[#9690CF]">
+        <footer class="mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto ">
+            <!-- Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-5">
+                <div>
+                    <a class="flex-none text-xl font-semibold text-white focus:outline-none" href="#"
+                        aria-label="Brand">JOOMI - JUST MAKE IT</a>
+                </div>
+                <!-- End Col -->
+                <ul class="md:text-center">
+                    <li
+                        class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300">
+                        <a class="inline-flex gap-x-2 text-sm text-white hover:white focus:outline-none focus:white"
+                            href="#">
+                            Contact
+                        </a>
+                    </li>
+                    <li
+                        class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300">
+                        <a class="inline-flex gap-x-2 text-sm text-white hover:white focus:outline-none focus:white"
+                            href="#">
+                            Site maps
+                        </a>
+                    </li>
+                    <li
+                        class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300">
+                        <a class="inline-flex gap-x-2 text-sm text-white hover:white focus:outline-none focus:white"
+                            href="mentions.html">
+                            Mention Légales
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Col -->
+
+                <!-- Social Brands -->
+                <div class="md:text-end space-x-2">
+
+                    <a class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-white disabled:opacity-50 disabled:pointer-events-none"
+                        href="https://www.instagram.com/joomi_com/" target="_blank">
+                        <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- End Social Brands -->
+            </div>
+            <!-- End Grid -->
+        </footer>
+    </div>
+    <script src="./assets/../node_modules/preline/dist/preline.js"></script>
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+    </script>
+
+    <script>
+        setTimeout(function () {
+            AOS.init();
+        }, 100);
+    </script>
+</body>
+
+</html>

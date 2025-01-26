@@ -1,0 +1,21 @@
+{
+  "name": "joomi_landing",
+  "version": "1.0.0",
+  "description": "Joomi App est un jeu éducatif conçu pour aider les étudiants à apprendre à coder et à créer tout en s'amusant. Ce projet est développé dans le cadre du concours pépite bretagne.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "postcss src/tailwind.css -o public/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "Joomi",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "express": "^4.21.2",
+    "postcss": "^8.5.1",
+    "@tailwindcss/cli": "^4.0.0",
+    "preline": "^2.7.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
