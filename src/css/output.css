@@ -2894,6 +2894,12 @@
       background-image: url('./assets/Vector%2010.svg');
     }
   }
+  .before\:bg-\[url\(\'\/assets\/\/assets\/Vector\%2010\.svg\'\)\] {
+    &::before {
+      content: var(--tw-content);
+      background-image: url('/assets//assets/Vector%2010.svg');
+    }
+  }
   .before\:bg-\[url\(\'\/assets\/01\.svg\'\)\] {
     &::before {
       content: var(--tw-content);
@@ -2910,6 +2916,12 @@
     &::before {
       content: var(--tw-content);
       background-image: url('/assets/Vector%2010.svg');
+    }
+  }
+  .before\:bg-\[url\(\'\/assetsVector\%2010\.svg\'\)\] {
+    &::before {
+      content: var(--tw-content);
+      background-image: url('/assetsVector%2010.svg');
     }
   }
   .before\:bg-\[url\(\'01\.svg\'\)\] {
