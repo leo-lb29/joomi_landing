@@ -770,8 +770,17 @@
   .me-3 {
     margin-inline-end: calc(var(--spacing) * 3);
   }
+  .-mt-16 {
+    margin-top: calc(var(--spacing) * -16);
+  }
+  .-mt-18 {
+    margin-top: calc(var(--spacing) * -18);
+  }
   .-mt-20 {
     margin-top: calc(var(--spacing) * -20);
+  }
+  .-mt-24 {
+    margin-top: calc(var(--spacing) * -24);
   }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
