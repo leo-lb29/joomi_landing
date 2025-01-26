@@ -12,12 +12,15 @@ app.use(express.static(path.join(__dirname, "src"))); // Inclure les fichiers nÃ
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
-// app.get("/mention", (req, res) => {
-//   res.sendFile(path.join(__dirname, "public", "mention.html"));
-// });
-// app.get("/go", (req, res) => {
-//   res.sendFile(path.join(__dirname, "public", "newsletter.html"));
-// });
+
+app.get("/mentions", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "mentions.html"));
+});
+
+// Gestion des erreurs 404
+app.use((req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "public", "404.html"));
+});
 
 // DÃ©marrer le serveur
 app.listen(PORT, () => {
